@@ -8,3 +8,4 @@ function imprimeTexto(texto){
 }
 
 imprimeTexto("oi mundo!");
+imprimeTexto("José");
