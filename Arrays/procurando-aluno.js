@@ -16,6 +16,6 @@ function exibeNomeENota(alunos) {
         console.log ('Aluno não esta cadastrado!');
 
     }  
-}
+} H
 
 exibeNomeENota("rafael");
