@@ -12,4 +12,4 @@ const chaves = ["nome", "idade", "cpf", "email"];
 chaves.console.log.forEach(element => {
     console.log('A chave ${chave} tem valor &{cliente[chave]}');
     
-});
+})
