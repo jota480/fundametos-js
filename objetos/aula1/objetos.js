@@ -5,6 +5,6 @@ const informaçõesPessoa = ["nome", "Josep", "idade", 32, "CPF", "11112222333" 
 console.log(informaçõesPessoa(1));
 
 const objetoPessoa = {
-    idade = 16:
+    idade = "16",
     nome: "Zezo magro",
 };
