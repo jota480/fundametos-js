@@ -4,7 +4,7 @@ const cliente = {
     email: "jose.binde@escola.pr.gov.br",
     telefone: ["4255552233", "4299934526"],
 };
-
+/*
 cliente.endereço = [
 {
     rua: "dr. orlando Araujo Costa",
@@ -13,10 +13,13 @@ cliente.endereço = [
     compemento: "ap 934"
 },
 ];
+*/
 
-for (let chave in cliente){
-    let tipo = typeof cliente[chave]
-    if (tipo !== "object" && tipo !== "function"){
-    console.log('A chave ${chave} tem o valor ${cliente[chave]}');
-    }
+const ChavesDoObjetoo.incluses = Object.keys(cliente);
+console.log(ChavesDoObjetoo);
+
+if(ChavesDoObjetoo.incluses("endereço")){
+    console.log("erro. é necessario ter um endereço cadastrado");
 }
+
+
