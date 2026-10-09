@@ -15,10 +15,10 @@ cliente.endereço = [
 ];
 */
 
-const ChavesDoObjetoo.incluses = Object.keys(cliente);
-console.log(ChavesDoObjetoo);
+const ChavesDoObjeto = Object.keys(cliente);
+console.log(ChavesDoObjeto);
 
-if(ChavesDoObjetoo.incluses("endereço")){
+if(!ChavesDoObjeto.includes("endereco")){
     console.log("erro. é necessario ter um endereço cadastrado");
 }
 
